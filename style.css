@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "moon flower";
+    src: url("moon flower.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.parallax {
+    /* Set a specific height */
+    height: 105vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Prevent div margins from affecting parent margins*/
+    display: flex;
+    align-items: center;
+    /*align-content: center;*/
+}
+.textBox {
+    height: auto;
+    background-color: rgba(100, 100, 100, .55);
+    border-radius: 10px;
+    width: 80%;
+    margin: 20% auto;
+
+
+}
+.textBox p {
+    color: white;
+    font-family: "Moon Flower", "Amatic SC", cursive;
+    font-size: 3.5vh;
+    text-align: center;
+}
+#winter {
+    background-image: url("http://i.imgur.com/BnongIV.jpg");
+}
+#spring {
+    background-image: url("http://i.imgur.com/G1f8JdB.jpg");
+}
+#summer {
+    background-image: url("http://i.imgur.com/GgyiqlP.jpg");
+}
+#autumn {
+    background-image: url("http://i.imgur.com/BmwKAMF.jpg");
+}
